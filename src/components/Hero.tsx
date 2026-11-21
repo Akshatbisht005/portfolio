@@ -114,7 +114,7 @@ export function Hero() {
           </a>
           <a
             href={settings.resume_file_url || '/resume.pdf'}
-            download
+            download="Rohit_Rawat_Resume.pdf"
             className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-slate-200 dark:border-slate-700 px-8 py-3.5 text-sm font-semibold text-slate-700 dark:text-slate-200 hover:border-violet-600 hover:text-violet-600 dark:hover:border-violet-400 dark:hover:text-violet-400 transition-all hover:-translate-y-0.5 active:translate-y-0"
           >
             <Download size={16} aria-hidden="true" /> Download resume

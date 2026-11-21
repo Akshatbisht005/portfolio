@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
-import { Link } from 'react-router-dom'
 import { ThemeToggle } from './ThemeToggle'
 import { useScrollSpy } from '../hooks/useScrollSpy'
 
@@ -75,18 +74,6 @@ export function Navbar({ dark, toggleTheme }: Props) {
               </a>
             </li>
           ))}
-          <li className="ml-2">
-            <Link
-              to="/admin"
-              className={`px-3 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider transition-colors ${
-                scrolled
-                  ? 'border border-slate-300 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:text-violet-600 dark:hover:text-violet-400'
-                  : 'border border-white/30 text-white/80 hover:text-white hover:bg-white/10'
-              }`}
-            >
-              Admin
-            </Link>
-          </li>
         </ul>
 
         <div className="flex items-center gap-2">
@@ -132,15 +119,6 @@ export function Navbar({ dark, toggleTheme }: Props) {
                   </a>
                 </li>
               ))}
-              <li className="pt-2 border-t border-slate-100 dark:border-slate-800">
-                <Link
-                  to="/admin"
-                  onClick={() => setOpen(false)}
-                  className="block px-4 py-3 rounded-xl text-sm font-medium text-violet-600 dark:text-violet-400 hover:bg-violet-50 dark:hover:bg-violet-900/20"
-                >
-                  Admin Portal →
-                </Link>
-              </li>
             </ul>
           </motion.div>
         )}

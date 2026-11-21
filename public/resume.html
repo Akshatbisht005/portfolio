@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: letter;
+    margin: 20mm 18mm 18mm 18mm;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: #ffffff;
+    font-size: 9.5pt;
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 19pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #0b3954;
+    margin-bottom: 3px;
+  }
+  .title-sub {
+    font-size: 10.5pt;
+    font-weight: 600;
+    color: #2b2b2b;
+    margin-bottom: 4px;
+  }
+  .contact-bar {
+    font-size: 8.8pt;
+    color: #333333;
+    margin-bottom: 2px;
+  }
+  .contact-bar a {
+    color: #0b3954;
+    text-decoration: none;
+  }
+  .contact-bar a:hover {
+    text-decoration: underline;
+  }
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #0b3954;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1.5px solid #0b3954;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .summary-text {
+    text-align: justify;
+    font-size: 9.2pt;
+    color: #2a2a2a;
+    line-height: 1.35;
+  }
+  .skills-block {
+    font-size: 9pt;
+    line-height: 1.4;
+  }
+  .skills-block strong {
+    color: #111111;
+  }
+  .entry {
+    margin-bottom: 6px;
+  }
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 9.3pt;
+    margin-bottom: 2px;
+  }
+  .entry-title {
+    font-weight: 700;
+    color: #111111;
+  }
+  .entry-date {
+    font-size: 8.8pt;
+    color: #444444;
+    font-style: italic;
+    white-space: nowrap;
+    margin-left: 12px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  li {
+    position: relative;
+    padding-left: 14px;
+    font-size: 8.9pt;
+    color: #2a2a2a;
+    line-height: 1.33;
+    margin-bottom: 2px;
+    text-align: justify;
+  }
+  li::before {
+    content: "•";
+    position: absolute;
+    left: 2px;
+    top: 0;
+    color: #0b3954;
+    font-weight: bold;
+    font-size: 10pt;
+  }
+  .edu-desc {
+    font-size: 8.8pt;
+    color: #333333;
+    line-height: 1.32;
+    margin-top: 1px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ROHIT RAWAT</h1>
+  <div class="title-sub">Associate Product Manager | Consumer and AI Products</div>
+  <div class="contact-bar">
+    Noida, India &nbsp;|&nbsp; 
+    <a href="mailto:rohanrwt9278@gmail.com">rohanrwt9278@gmail.com</a> &nbsp;|&nbsp; 
+    +91 7895769509 &nbsp;|&nbsp; 
+    <a href="https://linkedin.com/in/rohit-rawat-b732973a2" target="_blank">linkedin.com/in/rohit-rawat-b732973a2</a>
+  </div>
+  <div class="contact-bar">
+    Portfolio: <a href="https://preview--portfoliorohitrawat.lovable.app" target="_blank">preview--portfoliorohitrawat.lovable.app</a>
+  </div>
+</header>
+
+<div class="section-title">Professional Summary</div>
+<p class="summary-text">
+  Entry-level Product Manager with an AI-First Product Management certification (Airtribe, 2026) and an MCA (2022). Completed 3 end-to-end product projects, including a BookMyShow discovery feature built from a 19-response survey, 3 user interviews, RICE scoring of 15 ideas, a PRD and a working prototype. Basic SQL, plus experience in teaching and legal operations that built strong documentation, communication and stakeholder skills. Seeking an APM or PM role in consumer technology.
+</p>
+
+<div class="section-title">Core Skills</div>
+<div class="skills-block">
+  <div><strong>Product:</strong> PRD Writing, User Stories, RICE and MoSCoW Prioritization, Product Roadmapping, Go-to-Market Planning, A/B Testing</div>
+  <div><strong>Analytics:</strong> Funnel Analysis, Cohort Analysis, North Star and Guardrail Metrics, Event Tracking, SQL (basic), Excel, Google Sheets</div>
+  <div><strong>Research:</strong> User Interviews, Surveys, User Personas, Competitive Analysis, Root Cause Analysis</div>
+  <div><strong>Tools:</strong> Jira, Figma, Notion, Lovable, Claude, ChatGPT</div>
+</div>
+
+<div class="section-title">Product Management Projects</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">BookMyShow: Quick Decide, Entertainment Discovery | Airtribe Capstone</span>
+    <span class="entry-date">Jul 2026</span>
+  </div>
+  <ul>
+    <li>Surveyed 19 users and interviewed 3 to find why users with no plan browse but do not book. Found that 79% start discovery on Instagram or Google and 53% struggle to compare options.</li>
+    <li>Isolated comparison-stage decision paralysis as the main leak (32% abandon, 11% book on a rival app). Ruled out off-platform discovery and price as root causes.</li>
+    <li>Scored 15 ideas with RICE and merged the top three (Filters 216, Compare View 149, Quiz 144) into one feature: a 3-tap quiz returning 2 to 3 ranked picks, each with a one-line reason.</li>
+    <li>Wrote a PRD with 5 user stories and 5 testable requirements (3 taps or fewer, under 2 seconds latency). Built a clickable prototype in Lovable covering the flow from home to seat selection.</li>
+    <li>Set a target of 18% to 32% discovery-led conversion in 6 months, with 12 leading, lagging and guardrail metrics, an 8-event tracking spec and a 4-phase gated rollout starting with 5% of Bangalore users.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">Personalized Learning Recommendation System | EdTech | Airtribe Project</span>
+    <span class="entry-date">Jan – Mar 2025</span>
+  </div>
+  <ul>
+    <li>Wrote a PRD covering 3 user personas and 12 user stories, with functional and non-functional requirements.</li>
+    <li>Benchmarked 5 competitor EdTech platforms and used RICE to prioritise AI-driven recommendations, targeting a 20% uplift in course completion.</li>
+    <li>Defined 4 success metrics (DAU, NPS, 30-day completion rate, feature adoption) with baselines and targets.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">UI/UX Improvement PRD | B2B SaaS Website Analysis Tool | Product Design Sprint</span>
+    <span class="entry-date">Jun – Jul 2025</span>
+  </div>
+  <ul>
+    <li>Wrote a 15-page PRD using MoSCoW prioritisation, with user flows for 3 personas and gamification features targeting a 25% retention gain.</li>
+    <li>Created onboarding documentation used by 2 teams, cutting onboarding time for new feature rollouts from 5 days to 2.</li>
+  </ul>
+</div>
+
+<div class="section-title">Professional Experience</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">Paralegal Executive | Law Firm, Delhi</span>
+    <span class="entry-date">Jul 2024 – Present</span>
+  </div>
+  <ul>
+    <li>Manage documentation for 60+ active case files with 100% accuracy.</li>
+    <li>Redesigned the internal filing system, cutting document retrieval time by about 30%.</li>
+    <li>Summarise complex legal matters for 10+ clients a month.</li>
+    <li>Coordinate case reporting with 5+ internal and external stakeholders.</li>
+  </ul>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">Teacher</span>
+    <span class="entry-date">Oct 2022 – Jun 2024</span>
+  </div>
+  <ul>
+    <li>Delivered lessons and assessed student progress, adapting explanations to different learning levels.</li>
+    <li>Communicated regularly with students and parents on progress and learning needs.</li>
+  </ul>
+</div>
+
+<div class="section-title">Education and Certifications</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">AI-First Product Management Certification | Airtribe</span>
+    <span class="entry-date">April 2026 – August 2026</span>
+  </div>
+  <div class="edu-desc">
+    PRD Writing, Funnel and Cohort Analysis, Root Cause Analysis, A/B Testing, Agile, AI Product Strategy. 3 end-to-end product projects completed.
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry-header">
+    <span class="entry-title">MCA, Master of Computer Applications | Hemwati Nandan Bahuguna Garhwal University</span>
+    <span class="entry-date">2020 – 2022</span>
+  </div>
+  <div class="edu-desc">
+    Database Management, Software Engineering, Object-Oriented Programming, IT Project Management.
+  </div>
+</div>
+
+</body>
+</html>

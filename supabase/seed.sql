@@ -172,14 +172,11 @@ INSERT INTO public.projects (
     'Jul 2026',
     'Designed a discovery feature for BookMyShow that eliminates comparison-stage decision paralysis — a 3-tap quiz returning 2–3 ranked picks, each with a one-line reason.',
     ARRAY[
-        'Surveyed 19 users and interviewed 3 to find why users with no plan browse but do not book.',
-        '79% start discovery on Instagram or Google; 53% struggle to compare options.',
-        'Isolated comparison-stage decision paralysis as the main leak: 32% abandon, 11% book on a rival app.',
-        'Ruled out off-platform discovery and price as root causes.',
-        'Scored 15 ideas with RICE; merged top three (Filters 216, Compare View 149, Quiz 144) into one feature.',
-        'Wrote a PRD with 5 user stories and 5 testable requirements (≤3 taps, <2 s latency).',
-        'Built a clickable prototype in Lovable covering the flow from home to seat selection.',
-        'Target: 18–32% discovery-led conversion in 6 months; 12 metrics, 8-event tracking spec, 4-phase gated rollout starting with 5% of Bangalore users.'
+        'Surveyed 19 users and interviewed 3 to find why users with no plan browse but do not book. Found that 79% start discovery on Instagram or Google and 53% struggle to compare options.',
+        'Isolated comparison-stage decision paralysis as the main leak (32% abandon, 11% book on a rival app). Ruled out off-platform discovery and price as root causes.',
+        'Scored 15 ideas with RICE and merged the top three (Filters 216, Compare View 149, Quiz 144) into one feature: a 3-tap quiz returning 2 to 3 ranked picks, each with a one-line reason.',
+        'Wrote a PRD with 5 user stories and 5 testable requirements (3 taps or fewer, under 2 seconds latency). Built a clickable prototype in Lovable covering the flow from home to seat selection.',
+        'Set a target of 18% to 32% discovery-led conversion in 6 months, with 12 leading, lagging and guardrail metrics, an 8-event tracking spec and a 4-phase gated rollout starting with 5% of Bangalore users.'
     ],
     ARRAY['Discovery', 'RICE', 'PRD', 'Prototype', 'Metrics'],
     ARRAY['Consumer', 'Research', 'PRD'],
@@ -199,8 +196,7 @@ INSERT INTO public.projects (
     'PRD for an AI-driven course recommendation engine targeting a 20% uplift in course completion rates.',
     ARRAY[
         'Wrote a PRD covering 3 user personas and 12 user stories, with functional and non-functional requirements.',
-        'Benchmarked 5 competitor EdTech platforms and used RICE to prioritise AI-driven recommendations.',
-        'Targeted a 20% uplift in course completion.',
+        'Benchmarked 5 competitor EdTech platforms and used RICE to prioritise AI-driven recommendations, targeting a 20% uplift in course completion.',
         'Defined 4 success metrics (DAU, NPS, 30-day completion rate, feature adoption) with baselines and targets.'
     ],
     ARRAY['EdTech', 'AI', 'PRD', 'Competitive Analysis'],
@@ -249,7 +245,7 @@ INSERT INTO public.work_experience (
     TRUE,
     ARRAY[
         'Manage documentation for 60+ active case files with 100% accuracy.',
-        'Redesigned the internal filing system, cutting document retrieval time by ~30%.',
+        'Redesigned the internal filing system, cutting document retrieval time by about 30%.',
         'Summarise complex legal matters for 10+ clients a month.',
         'Coordinate case reporting with 5+ internal and external stakeholders.'
     ],
@@ -280,13 +276,13 @@ INSERT INTO public.education (
 (
     'AI-First Product Management Certification',
     'Airtribe',
-    'Apr 2026 – Aug 2026',
-    ARRAY['PRD Writing, Funnel and Cohort Analysis, Root Cause Analysis, A/B Testing, Agile, AI Product Strategy.'],
+    'April 2026 – August 2026',
+    ARRAY['PRD Writing, Funnel and Cohort Analysis, Root Cause Analysis, A/B Testing, Agile, AI Product Strategy. 3 end-to-end product projects completed.'],
     1,
     TRUE
 ),
 (
-    'MCA — Master of Computer Applications',
+    'MCA, Master of Computer Applications',
     'Hemwati Nandan Bahuguna Garhwal University',
     '2020 – 2022',
     ARRAY['Database Management, Software Engineering, Object-Oriented Programming, IT Project Management.'],
