@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Plus, Edit3, Trash2, X, Search, FileText, BarChart2, Layers, Cpu } from 'lucide-react'
+import { Plus, Edit3, Trash2, X, Search } from 'lucide-react'
 import { usePortfolioData } from '../../context/PortfolioDataContext'
 import { supabase, isSupabaseConfigured } from '../../lib/supabase'
 import { WhatIDoItem } from '../../types/database'

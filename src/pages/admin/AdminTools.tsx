@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Plus, Trash2, ArrowUp, ArrowDown } from 'lucide-react'
+import { Plus, Trash2 } from 'lucide-react'
 import { usePortfolioData } from '../../context/PortfolioDataContext'
 import { supabase, isSupabaseConfigured } from '../../lib/supabase'
 

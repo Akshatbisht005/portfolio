@@ -7,8 +7,6 @@ import {
   Sparkles,
   ArrowRight,
   Eye,
-  CheckCircle2,
-  AlertCircle,
   Database,
 } from 'lucide-react'
 import { usePortfolioData } from '../../context/PortfolioDataContext'
